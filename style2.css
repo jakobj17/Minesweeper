@@ -1,0 +1,26 @@
+
+.boardInfo{
+    margin:auto;
+    width: 50%;
+    height:120px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+label{
+    font-weight: 600;
+}
+
+.Info{
+    margin-top: 10px;
+}
+
+.square {
+  border: 1px solid gray;
+  min-width: 20px;
+  min-height: 20px;
+  display: inline-block;
+  margin-right: 2px;
+
+}
+

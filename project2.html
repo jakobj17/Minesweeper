@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style2.css">
+<script src="project2.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<head>
+    <title>Minesweeper</title>
+</head>
+<body>
+    <div class="boardInfo">
+        <div class="Info">
+            <label for="numberOfCols">Insert number of columns:</label>
+            <input type="text" id="numberOfCols">
+        </div>
+        <div class="Info">
+            <label for="numberOfRows">Insert number of rows:</label>
+            <input type="text" id="numberOfRows">
+        </div>
+        <div class="Info">
+            <label for="numberOfMines">Insert number of mines:</label>
+            <input type="text" id="numberOfMines">
+        </div>
+        <div class="Info">
+            <button type="button" onclick="doAjax()">Create board.</button>
+        </div>
+    </div>
+    <div  id="container">
+
+    </div>
+
+
+</body>
+</html>
